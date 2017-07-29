@@ -6,13 +6,29 @@
     android:layout_height="match_parent"
     tools:context="com.bignerdranch.android.stopwatchplus.MainActivity">
 
-    <TextView
+    <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/submit_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="35dp"
+            android:text="@string/"/>
+        <TextView
+            android:id="@+id/answer_box"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="44dp"
+            android:layout_margin="50dp"
+            android:text="@string/" />
+
+
+    </LinearLayout>
+
 
 </android.support.constraint.ConstraintLayout>
