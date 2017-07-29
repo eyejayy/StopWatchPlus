@@ -26,6 +26,7 @@
             android:padding="44dp"
             android:layout_margin="50dp"
             android:text="@string/" />
+            t
 
 
     </LinearLayout>
